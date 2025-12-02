@@ -1,0 +1,53 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    height: 100vh;
+    background-image: url('j.jpg');
+    background-size: contain;  /* image will cover full screen */
+    background-position: center; /* image stays centered */
+    background-repeat:repeat;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size : 32pt;
+   
+}
+div{
+    font-size: 13pt;
+    width: 350px;
+    margin: 20px auto ;
+    padding: 20px ;
+    background: rgba(255, 255, 255, 0.65); /* lightweight white box */
+    border-radius: 10px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-between;   /* adds space between buttons */
+    gap: 15px;                         /* extra spacing */
+    margin-top: 20px;
+}
+
+.submit-btn,
+.special-btn {
+    flex: 1;                           /* both buttons equal width */
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 13pt;
+    cursor: pointer;
+    font-family: 'times new  roman';
+    font-style: italic;
+    font-weight: bold;
+}
+.gender{
+    font-size: medium;
+}
+a:visited{
+    
+}
